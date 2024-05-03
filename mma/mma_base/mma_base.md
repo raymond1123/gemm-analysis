@@ -141,7 +141,7 @@ Figure-4  是 每个 block 的 Warp Layout
 
 
 
-<img src="imgs/warp_layout.drawio.png" alt="warp_layout.drawio" style="zoom:40%;" />
+<img src="imgs/warp_layout.drawio.png" alt="warp_layout.drawio" style="zoom:30%;" />
 
 <center> Figure-4 <center>
 
