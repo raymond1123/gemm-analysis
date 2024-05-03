@@ -32,7 +32,6 @@
  55     if (block_tile_i >= M_tiles || block_tile_j >= N_tiles) {
  56         return;
  57     }
-
 ```
 
 * Figure-1是 C 矩阵在 block 层级的布局
