@@ -316,8 +316,25 @@ Figure-7  是将 shared memory 结果搬移到 global memory 的过程
 
 <img src="imgs/smem2gmem.drawio.png" alt="smem2gmem.drawio" style="zoom:80%;" />
 
-
+<center> Figure-7 <center>
 
 * 这里的 shared memory 依然是 256 *128
 * 最终将 block 对应的 shared memory 的结果放到矩阵 C 中
+
+
+
+### 7. Pipeline 
+
+* Figure-8 是一个 warp 内所有 thread 的 pipeline
+
+  <img src="imgs/pipeline.drawio.png" alt="pipeline.drawio" style="zoom:120%;" />
+
+
+
+* LDGSTS：load from global memory; store to shared memory
+
+* S2R: from Shared memory to Register
+* calc: Tile calculation
+* R2S: from Register to Shared memory
+* LDS: load from shared memory to global memory
 

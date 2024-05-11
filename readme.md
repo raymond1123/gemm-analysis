@@ -11,16 +11,15 @@
 ### mma 
 
 * [mma_base 分析](mma/mma_base/mma_base.md)
-
-
-
-### wmma
+* [mma_permute 分析](mma/mma_permute/mma_permuted.md)
 
 
 
 ## TODO List
 
 - [x] mma_base
+
+- [x] mma_permuted
 
 - [ ] mma_async
 
@@ -30,8 +29,6 @@
 
 - [ ] mma_async_stage4
 
-- [ ] mma_permuted
-
 - [ ] mma_async_pg2s
 
 - [ ] mma_async_stage2
@@ -39,5 +36,4 @@
 - [ ] nsight compute 分析
 
   
-
 
