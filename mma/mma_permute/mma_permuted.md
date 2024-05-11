@@ -149,7 +149,7 @@
 
 <center> Figure-3 <center>
 
-* Figure-3 中可以显然看到，ldmatrix 在不同 phase 上均没有 bank conflict
+* Figure-3 中可以显然看到，ldmatrix 在不同 phase 上都没有 bank conflict
 
 
 
@@ -186,7 +186,7 @@ Figure-4  是将寄存器结果搬移到 shared memory 的过程
 <center> Figure-4 <center>
 
 
-* 每个 thread 对应的 bank 都不同，所以 ldmatrix 这里完全没有 bank conflict
+* 每个 thread 对应的 bank 都不同，所以这里完全没有 bank conflict
 * 对于 lane_ptr0 计算索引的简单说明
 * 语句如下
     *  half *lane_ptr0 = smem_warp_tile_row_ptr + (i * MMA_M + lane_id / 4) * C_SMEM_STRIDE +
